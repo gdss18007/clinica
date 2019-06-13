@@ -4,6 +4,14 @@ const Medicos = new mongoose.Schema({
         type: String,
         required:true
     },
+    especialidades:{
+        type:[String],
+        reuired:true
+    },
+    data_nasc:{
+        type:String,
+        required:true
+    },
     nome:{
         type:String,
         required:true
